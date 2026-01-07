@@ -61,4 +61,4 @@ The project uses the **free OpenWeather API tier**, which does **not support dat
 Although the system accepts a date, the API always returns current weather data.
 
 The application logic fully supports date-based requests.  
-If the API URL in `OpenWeatherApiService` is changed to a newer OpenWeather API version and a valid paid API key is provided, date-based weather retrieval will work correctly without further code changes.
+If the API key in `WeatherController` is changed to a newer OpenWeather API version and a valid paid API key is provided, date-based weather retrieval will work correctly without further code changes.
